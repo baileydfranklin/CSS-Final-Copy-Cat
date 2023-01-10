@@ -3,7 +3,7 @@ header{
     padding: .5%;
     margin: -1%;
     text-align: right;
-    /* opacity: .5; */
+    opacity: .8;
     background-color: black;
     position: sticky;
     top: 0;
@@ -177,5 +177,6 @@ a:link{
 
 .footerlink:hover{
     color: white;
+    transition: .5s;
 }
 /*____________________FOOTER END____________________*/
