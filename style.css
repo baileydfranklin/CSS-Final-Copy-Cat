@@ -1,25 +1,82 @@
-.background{
-    width: 100%;
-}
-
 .logo{
     width: 160px;
     margin: 15px;
-    background-color: black;
-}
-
-.button{
-    
+    transform: translateY(-50px);
+    position: sticky;
+    top: 0;
 }
 
 header{
-    background-color: black;
-    position: sticky;
-    top: 0;
-    opacity: .2;
+    margin: 0 auto;
 }
 
-footer{
-    background-image: linear-gradient( midnightblue, navy);
-    min-height: 150px
+.headercontainer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    opacity: ;
+    background-color: black;
 }
+/*____________________HEADER LINKS AND LOGO START____________________*/
+.accountlink{
+    color: white;
+}
+
+.button{
+    background-color: purple;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+/*____________________HEADER LINKS AND LOGO END____________________*/
+
+/*____________________BODY START____________________*/
+.maincontainer{
+    display: grid;
+    grid-template-columns: 1000px;
+    margin: 7% 0 0 21%;
+}
+
+.item1{
+    grid-row: 1/span 1;
+    color: ivory;
+    font-family: Helvetica;
+    font-size: 50px;
+    margin: 0;
+}
+
+.item2{
+    grid-row: 2/span 1;
+    color: ivory;
+    font-size: ;
+    width: 410px;
+}
+
+.item3{
+    grid-row: 3/span 1;
+    width: fit-content;
+}
+
+.item4{
+    grid-row: 4/span 1;
+    color: ivory;
+}
+
+.item5{
+    grid-row: 5/span 1;
+    width: fit-content;
+}
+/*____________________BODY END____________________*/
+
+/*____________________FOOTER START____________________*/
+footer{
+    
+}
+
+.footercontainer1{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20% 0 20%;
+}
+/*____________________FOOTER END____________________*/

@@ -8,18 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <header>
-    <div class="header">
-        <img class ="logo" src="https://www.hbomax.com/img/hbo-max-h-w-l.svg" alt="HBO Logo Picture">
-        <a href="account.com">ACCOUNT</a>
+    <div class="headercontainer">
+        <a class="accountlink" href="account.com">ACCOUNT</a>
         <button class="button"><a href="streamnow.com">STREAM NOW</a></button>
     </div>
+    <img class ="logo" src="https://www.hbomax.com/img/hbo-max-h-w-l.svg" alt="HBO Logo Picture">
 </header>
 <body>
-    <main>
-        <img class="background" src="https://hbomax-images.warnermediacdn.com/2022-04/ctv3x.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=1366">
+    <style class="background">
+                body{
+            background-image: url('https://hbomax-images.warnermediacdn.com/2022-04/ctv3x.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=1366');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <div class="maincontainer">
+        <h1 class="item1">HBO Max TV Sign In</h1>
+        <p class="item2">To complete the HBO Max TV sign in process, choose the button below and then enter the code from your TV. Start streaming HBO Max today.</p>
+        <button class="item3"><a href="link.com">START NOW</a></button>
+        <p class="item4">Don't have and account yet?</p>
+        <button class="item5"><a href="link.com">SIGN UP NOW</a></button>
+    </div>
     </main>
     <footer>
-        
+        <section class="footercontainer1">
+            <a href="link.com">EXPLORE WHAT'S ON</a>
+            <a href="link.com">MOVIES</a>
+            <a href="link.com">TV SHOWS</a>
+            <a href="link.com">ORIGIINALS</a>
+            <a href="link.com">FREE EPISODES</a>
+        </section>
     </footer>
 </body>
 </html>
