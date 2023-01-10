@@ -30,6 +30,7 @@ header{
     text-align: center;
     opacity: 1;
     transition: .5s;
+    font-weight: bolder;
 }
 
 
@@ -82,6 +83,7 @@ header{
     text-align: center;
     margin-bottom: 30px;
     transition: .5s;
+    font-weight: bolder;
 }
 
 .item3:hover{
@@ -96,7 +98,7 @@ header{
 }
 
 .item4{
-    color: ivory;
+    color: honeydew;
 }
 
 .br4{
@@ -104,9 +106,7 @@ header{
 }
 
 .item5{
-    grid-row: 5/span 1;
     width: fit-content;
-
     background-color: magenta;
     border-radius: 30px;
     border: 1px solid magenta;
@@ -114,6 +114,7 @@ header{
     width: 150px;
     text-align: center;
     transition: .5s;
+    font-weight: bolder;
 }
 
 .item5:hover{
