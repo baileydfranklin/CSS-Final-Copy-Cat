@@ -1,82 +1,181 @@
-.logo{
-    width: 160px;
-    margin: 15px;
-    transform: translateY(-50px);
+/*____________________HEADER LINKS AND LOGO START____________________*/
+header{
+    padding: .5%;
+    margin: -1%;
+    text-align: right;
+    /* opacity: .5; */
+    background-color: black;
     position: sticky;
     top: 0;
 }
 
-header{
-    margin: 0 auto;
+.logo{
+    width: 160px;
+    margin: 0 1450px 0 0;
+    opacity: 1;
 }
 
-.headercontainer{
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-    opacity: ;
-    background-color: black;
-}
-/*____________________HEADER LINKS AND LOGO START____________________*/
 .accountlink{
-    color: white;
+    color: honeydew;
+    margin: 10px;
 }
 
 .button{
-    background-color: purple;
+    background-color: magenta;
     border-radius: 30px;
+    margin: 10px;
+    border: none;
     padding: 10px;
     width: 150px;
     text-align: center;
+    opacity: 1;
+    transition: .5s;
 }
+
+
+
+.button:hover{
+    color: magenta;
+    background-color: white;
+    transition: .5s;
+}
+
 /*____________________HEADER LINKS AND LOGO END____________________*/
 
 /*____________________BODY START____________________*/
 .maincontainer{
-    display: grid;
-    grid-template-columns: 1000px;
-    margin: 7% 0 0 21%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 7%  44% 0 21%;
 }
 
 .item1{
-    grid-row: 1/span 1;
-    color: ivory;
+    color: honeydew;
     font-family: Helvetica;
     font-size: 50px;
     margin: 0;
 }
 
+.br1{
+    width: 100%;
+}
+
 .item2{
-    grid-row: 2/span 1;
-    color: ivory;
-    font-size: ;
-    width: 410px;
+    color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.br2{
+    width: 100%;
 }
 
 .item3{
-    grid-row: 3/span 1;
     width: fit-content;
+
+    background-color: honeydew;
+    border: 1px solid honeydew;
+    border-radius: 30px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.item3:hover{
+    background-color: transparent;
+    color: white;
+    transition: .5s;
+    border: 1px solid white;
+}
+
+.br3{
+    width: 100%;
 }
 
 .item4{
-    grid-row: 4/span 1;
     color: ivory;
+}
+
+.br4{
+    width: 100%;
 }
 
 .item5{
     grid-row: 5/span 1;
     width: fit-content;
+
+    background-color: magenta;
+    border-radius: 30px;
+    border: 1px solid magenta;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    transition: .5s;
+}
+
+.item5:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #545aa7;
+    transition: .5s;
 }
 /*____________________BODY END____________________*/
 
 /*____________________FOOTER START____________________*/
 footer{
-    
+    margin: 20% -1% -1% -1%;
+    padding: 40px 40px 130px 40px;
+    background-image: linear-gradient(#000036, #000036);
+    color: honeydew;
+}
+a{
+    color: #545aa7;
+    text-align: center;
+    font-weight: bolder
+}
+a:link{
+    text-decoration: none;
 }
 
-.footercontainer1{
+.sec1{
     display: flex;
     justify-content: space-around;
-    margin: 0 20% 0 20%;
+    margin: 0 30% 0 30%;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 30% 0 30%;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+.sec3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1% 30% 0 30%;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+.sec4{
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 30% 0 30%;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 1% 0 5px 0;
+    color: #545aa7;
+}
+
+.footerlink:hover{
+    color: white;
 }
 /*____________________FOOTER END____________________*/
