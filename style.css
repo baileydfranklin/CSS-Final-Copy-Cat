@@ -1,0 +1,25 @@
+.background{
+    width: 100%;
+}
+
+.logo{
+    width: 160px;
+    margin: 15px;
+    background-color: black;
+}
+
+.button{
+    
+}
+
+header{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    opacity: .2;
+}
+
+footer{
+    background-image: linear-gradient( midnightblue, navy);
+    min-height: 150px
+}
