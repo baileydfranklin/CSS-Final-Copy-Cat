@@ -137,6 +137,7 @@ a{
 }
 a:link{
     text-decoration: none;
+    transition: .5s;
 }
 
 .sec1{
@@ -176,6 +177,5 @@ a:link{
 
 .footerlink:hover{
     color: white;
-    transition: .5s;
 }
 /*____________________FOOTER END____________________*/
